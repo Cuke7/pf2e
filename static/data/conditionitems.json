@@ -1,0 +1,506 @@
+[
+   {
+      "_id": "1wQY3JYyhMYeeV2G",
+      "name": "Observed",
+      "description": "<p>Anything in plain view is observed by you. If a creature takes measures to avoid detection, such as by using Stealth to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, it can become @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} or @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} instead of observed. If you have another precise sense instead of or in addition to sight, you might be able to observe a creature or object using that sense instead. You can observe a creature only with precise senses. When @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seeking} a creature using only imprecise senses, it remains hidden, rather than observed.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Observ\u00e9",
+            "description": "<p>Tout ce qui est dans votre ligne de mire est observ\u00e9 par vos soins. Si une cr\u00e9ature prend des mesures pour \u00e9viter la d\u00e9tection, comme utiliser sa Discr\u00e9tion pour @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Se cacher}, elle peut devenir @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Cach\u00e9e} ou @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Non d\u00e9tect\u00e9e} \u00e0 la place d'observ\u00e9e. Si vous disposez d'un autre sens pr\u00e9cis au lieu de ou en plus de la vue, vous pourriez \u00eatre capable d'observer une cr\u00e9ature ou un objet en utilisant ce sens \u00e0 la place. Vous pouvez observer une cr\u00e9ature seulement avec un sens pr\u00e9cis. Lorsque vous @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Cherchez} une cr\u00e9ature en utilisant seulement des sens impr\u00e9cis, elle reste cach\u00e9e plut\u00f4t qu'observ\u00e9e.</p>"
+         }
+      }
+   },
+   {
+      "_id": "3uh1r86TzbQvosxv",
+      "name": "Doomed",
+      "description": "<p>A powerful force has gripped your soul, calling you closer to death. Doomed always includes a value. The @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} value at which you die is reduced by your doomed value. If your maximum dying value is reduced to 0, you instantly die. When you die, you're no longer doomed.<br /><br />Your doomed value decreases by 1 each time you get a full night's rest.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Condamn\u00e9",
+            "description": "<p>Votre \u00e2me se trouve sous le joug d\u2019une puissante force qui vous pousse toujours plus pr\u00e8s de la mort. L\u2019\u00e9tat Condamn\u00e9 est toujours accompagn\u00e9 d\u2019une intensit\u00e9. L\u2019intensit\u00e9 maximale de l\u2019\u00e9tat @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Mourant} \u00e0 partir de laquelle vous mourez est diminu\u00e9e de l\u2019intensit\u00e9 de votre \u00e9tat Condamn\u00e9. Si votre intensit\u00e9 maximale d'\u00e9tat Mourant est r\u00e9duite \u00e0 0, vous mourez instantan\u00e9ment. Si vous mourez, vous perdez l\u2019\u00e9tat Condamn\u00e9.</p>\n<p>L'intensit\u00e9 de votre \u00e9tat Condamn\u00e9 est diminu\u00e9e de 1 \u00e0 chaque fois que vous vous reposez pendant une nuit compl\u00e8te.</p>"
+         }
+      }
+   },
+   {
+      "_id": "4D2KBtexWXa6oUMR",
+      "name": "Drained",
+      "description": "<p>When a creature successfully drains you of blood or life force, you become less healthy. Drained always includes a value. You take a status penalty equal to your drained value on Constitution-based checks, such as Fortitude saves. You also lose a number of Hit Points equal to your level (minimum 1) times the drained value, and your maximum Hit Points are reduced by the same amount. For example, if you're hit by an effect that inflicts drained 3 and you're a 3rd-level character, you lose 9 Hit Points and reduce your maximum Hit Points by 9. Losing these Hit Points doesn't count as taking damage.<br /><br />Each time you get a full night's rest, your drained value decreases by 1. This increases your maximum Hit Points, but you don't immediately recover the lost Hit Points.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Drain\u00e9",
+            "description": "<p>Vous vous affaiblissez quand une cr\u00e9ature r\u00e9ussit \u00e0 drainer votre sang ou votre force vitale. L\u2019\u00e9tat Drain\u00e9 est toujours accompagn\u00e9 d\u2019une intensit\u00e9. Vous subissez un malus de statut \u00e9gal \u00e0 l\u2019intensit\u00e9 de votre \u00e9tat Drain\u00e9 et qui s\u2019applique \u00e0 vos tests bas\u00e9s sur la Constitution, comme les jets de Vigueur. Vous perdez \u00e9galement une quantit\u00e9 de points de vie \u00e9gale \u00e0 votre niveau (avec un minimum de 1) multipli\u00e9 par l\u2019intensit\u00e9 de votre \u00e9tat Drain\u00e9 et votre maximum de points de vie est r\u00e9duit de ce montant. Par exemple, si vous subissez un effet qui vous inflige drain\u00e9 3 et que vous \u00eates un personnage de niveau 3, vous perdez 9 points de vie et r\u00e9duisez votre maximum de points de vie de 9. Perdre ces points de vie n\u2019est pas consid\u00e9r\u00e9 comme subir des d\u00e9g\u00e2ts.</p>\n<p>\u00c0 chaque fois que vous vous reposez une nuit compl\u00e8te, l\u2019intensit\u00e9 de votre \u00e9tat Drain\u00e9 d\u00e9cro\u00eet de 1. Votre maximum de points de vie remonte alors, mais vous ne regagnez pas imm\u00e9diatement les points de vie que vous avez perdus.</p>"
+         }
+      }
+   },
+   {
+      "_id": "6dNUvdb1dhToNDj3",
+      "name": "Broken",
+      "description": "<p>Broken is a condition that affects objects. An object is broken when damage has reduced its Hit Points below its Broken Threshold. A broken object can't be used for its normal function, nor does it grant bonuses-with the exception of armor. Broken armor still grants its item bonus to AC, but it also imparts a status penalty to AC depending on its category: -1 for broken light armor, -2 for broken medium armor, or -3 for broken heavy armor.<br /><br />A broken item still imposes penalties and limitations normally incurred by carrying, holding, or wearing it. For example, broken armor would still impose its Dexterity modifier cap, check penalty, and so forth.<br /><br />If an effect makes an item broken automatically and the item has more HP than its Broken Threshold, that effect also reduces the item's current HP to the Broken Threshold.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Bris\u00e9",
+            "description": "<p>Bris\u00e9 est un \u00e9tat affectant les objets. Un objet est bris\u00e9 quand des d\u00e9g\u00e2ts ont r\u00e9duit ses points de vie au niveau de son Seuil de rupture ou moins. On ne peut plus utiliser normalement un objet bris\u00e9, pas plus qu\u2019il n\u2019accorde de bonus, \u00e0 l\u2019exception d\u2019une armure. Une armure bris\u00e9e accorde toujours son bonus d\u2019objet \u00e0 la CA, mais inflige en m\u00eame temps un malus de statut \u00e0 la CA en fonction de sa cat\u00e9gorie : \u22121 pour une armure l\u00e9g\u00e8re bris\u00e9e, \u22122 pour une armure interm\u00e9diaire bris\u00e9e ou \u22123 pour une armure lourde bris\u00e9e.</p>\n<p>Un objet bris\u00e9 continue d\u2019imposer les malus et les limitations normalement encourus lorsqu\u2019on le transporte, le tient ou le porte. Par exemple, une armure bris\u00e9e imposera toujours son bonus de Dext\u00e9rit\u00e9 maximal, son malus aux tests, etc.</p>\n<p>Si un effet fait se briser un objet automatiquement et que celui-ci a plus de points de vie que son Seuil de rupture, cet effet r\u00e9duit \u00e9galement les points de vie actuels de l\u2019objet \u00e0 son Seuil de rupture.</p>"
+         }
+      }
+   },
+   {
+      "_id": "6uEgoh53GbXuHpTF",
+      "name": "Paralyzed",
+      "description": "<p>Your body is frozen in place. You have the @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} condition and can't act except to @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} and use actions that require only the use of your mind (as determined by the GM). Your senses still function, but only in the areas you can perceive without moving your body, so you can't @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} while paralyzed.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Paralys\u00e9",
+            "description": "<p>Votre corps est fig\u00e9 sur place. Vous \u00eates @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au d\u00e9pourvu} et ne pouvez pas agir, sauf pour @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Vous souvenir} de quelque chose et entreprendre des actions qui font seulement appel \u00e0 votre esprit (ces actions sont d\u00e9termin\u00e9es par le MJ). Vos sens fonctionnent toujours, mais votre perception est limit\u00e9e aux zones que vous pouvez percevoir sans bouger votre corps, vous n\u2019\u00eates donc pas capable de @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Chercher}.</p>"
+         }
+      }
+   },
+   {
+      "_id": "9PR9y0bi4JPKnHPR",
+      "name": "Deafened",
+      "description": "<p>You can't hear. You automatically critically fail Perception checks that require you to be able to hear. You take a -2 status penalty to Perception checks for initiative and checks that involve sound but also rely on other senses. If you perform an action with the auditory trait, you must succeed at a <strong>DC 5</strong> flat check or the action is lost; attempt the check after spending the action but before any effects are applied. You are immune to auditory effects.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Sourd",
+            "description": "<p>Vous ne pouvez pas entendre. Vous \u00e9chouez automatiquement \u00e0 tous les tests de Perception qui reposent sur votre audition. Vous subissez un malus de statut de \u22122 \u00e0 vos tests de Perception destin\u00e9s \u00e0 d\u00e9terminer l\u2019initiative et aux tests en rapport avec le son et d\u2019autres sens. Si vous accomplissez une action qui a le trait audible, vous devez r\u00e9ussir un test nu DD 5 ou perdre l\u2019action. Vous faites ce test apr\u00e8s avoir d\u00e9pens\u00e9 l\u2019action mais avant d\u2019appliquer ses effets. Vous \u00eates immunis\u00e9 contre les effets audibles.</p>"
+         }
+      }
+   },
+   {
+      "_id": "9evPzg9E6muFcoSk",
+      "name": "Unnoticed",
+      "description": "<p>If you are unnoticed by a creature, that creature has no idea you are present at all. When you're unnoticed, you're also @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} by the creature. This condition matters for abilities that can be used only against targets totally unaware of your presence.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Inaper\u00e7u",
+            "description": "<p>Si vous \u00eates inaper\u00e7u aux yeux d\u2019une cr\u00e9ature, elle n\u2019a aucune conscience de votre pr\u00e9sence. Quand vous \u00eates inaper\u00e7u par une cr\u00e9ature, vous \u00eates \u00e9galement @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Non d\u00e9tect\u00e9} par elle. Cet \u00e9tat intervient dans le cadre de pouvoirs qui peuvent seulement \u00eatre utilis\u00e9s contre des cibles qui n\u2019ont aucune conscience de votre pr\u00e9sence.</p>"
+         }
+      }
+   },
+   {
+      "_id": "9qGBRpbX9NEwtAAr",
+      "name": "Controlled",
+      "description": "<p>Someone else is making your decisions for you, usually because you're being commanded or magically dominated. The controller dictates how you act and can make you use any of your actions, including attacks, reactions, or even @Compendium[pf2e.actionspf2e.A72nHGUtNXgY5Ey9]{Delay}. The controller usually does not have to spend their own actions when controlling you.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Contr\u00f4l\u00e9",
+            "description": "<p>Quelqu\u2019un prend des d\u00e9cisions \u00e0 votre place, en exer\u00e7ant g\u00e9n\u00e9ralement un contr\u00f4le sur vous par le biais d\u2019une injonction ou d\u2019une domination magique. La cr\u00e9ature qui vous contr\u00f4le d\u00e9cide de vos actions et peut vous faire utiliser n\u2019importe quelle action, y compris des attaques, des r\u00e9actions et m\u00eame l\u2019action @Compendium[pf2e.actionspf2e.A72nHGUtNXgY5Ey9]{Retarder}. En outre, cette cr\u00e9ature n\u2019a g\u00e9n\u00e9ralement pas besoin de d\u00e9penser elle-m\u00eame d\u2019action pour vous contr\u00f4ler.</p>"
+         }
+      }
+   },
+   {
+      "_id": "AJh5ex99aV6VTggg",
+      "name": "Flat-Footed",
+      "description": "<p>You're distracted or otherwise unable to focus your full attention on defense. You take a -2 circumstance penalty to AC. Some effects give you the flat-footed condition only to certain creatures or against certain attacks. Others-especially conditions-can make you universally flat-footed against everything. If a rule doesn't specify that the condition applies only to certain circumstances, it applies to all of them; for example, many effects simply say \"The target is flat-footed.\"</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Pris au d\u00e9pourvu",
+            "description": "<p>Vous \u00eates distrait, ou quelque chose d\u2019autre vous emp\u00eache de vous concentrer enti\u00e8rement sur vos d\u00e9fenses. Vous subissez un malus de circonstances de \u22122 \u00e0 votre CA. Certains effets vous conf\u00e8rent l\u2019\u00e9tat Pris au d\u00e9pourvu seulement face \u00e0 certaines cr\u00e9atures ou certaines attaques. D\u2019autres, notamment les \u00e9tats, vous rendent Pris au d\u00e9pourvu contre tout. Si une r\u00e8gle ne pr\u00e9cise pas que cet \u00e9tat est seulement valable dans une situation donn\u00e9e, il est valable pour toutes les situations. Par exemple, de nombreux effets pr\u00e9cisent simplement : \u00ab la cible est Prise au d\u00e9pourvu \u00bb.</p>"
+         }
+      }
+   },
+   {
+      "_id": "AdPVz7rbaVSRxHFg",
+      "name": "Fascinated",
+      "description": "<p>You are compelled to focus your attention on something, distracting you from whatever else is going on around you. You take a -2 status penalty to Perception and skill checks, and you can't use actions with the concentrate trait unless they or their intended consequences are related to the subject of your fascination (as determined by the GM). For instance, you might be able to @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} and @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} about the subject, but you likely couldn't cast a spell targeting a different creature. This condition ends if a creature uses hostile actions against you or any of your allies.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Fascin\u00e9",
+            "description": "<p>Votre attention est irr\u00e9sistiblement attir\u00e9e par quelque chose et vous ne faites plus attention \u00e0 ce qui se d\u00e9roule autour de vous. Vous subissez un malus de statut de \u22122 \u00e0 vos tests de Perception et de comp\u00e9tences et vous ne pouvez pas entreprendre d\u2019actions dot\u00e9es du trait concentration, sauf si ces actions ou leurs cons\u00e9quences sont li\u00e9es \u00e0 l\u2019objet de votre fascination (avec l\u2019accord du MJ). Par exemple, vous pourrez probablement @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Chercher} et @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Vous souvenir} de quelque chose par rapport au sujet de votre fascination, mais vous ne pourrez normalement pas lancer de sort ciblant une autre cr\u00e9ature. Cet \u00e9tat prend fin si une cr\u00e9ature entreprend une action hostile contre vous ou n\u2019importe lequel de vos alli\u00e9s.</p>"
+         }
+      }
+   },
+   {
+      "_id": "D5mg6Tc7Jzrj6ro7",
+      "name": "Encumbered",
+      "description": "<p>You are carrying more weight than you can manage. While you're encumbered, you're @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy} 1 and take a 10-foot penalty to all your Speeds. As with all penalties to your Speed, this can't reduce your Speed below 5 feet.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Surcharg\u00e9",
+            "description": "<p>Vous transportez plus de poids que vous ne pouvez en g\u00e9rer. Tant que vous \u00eates surcharg\u00e9, vous \u00eates @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Maladroit} 1 et vous subissez un malus de 3 m \u00e0 toutes vos Vitesses. Comme pour l\u2019ensemble des malus inflig\u00e9s \u00e0 votre Vitesse, cette derni\u00e8re ne peut \u00eatre r\u00e9duite \u00e0 moins de 1,5 m.</p>"
+         }
+      }
+   },
+   {
+      "_id": "DmAIPqOBomZ7H95W",
+      "name": "Concealed",
+      "description": "<p>While you are concealed from a creature, such as in a thick fog, you are difficult for that creature to see. You can still be @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}, but you're tougher to target. A creature that you're concealed from must succeed at a <a class=\"inline-roll roll\" title=\"DC 5 flat check\" data-mode=\"roll\" data-flavor=\"DC 5 flat check\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> <strong>DC 5</strong> flat check when targeting you with an attack, spell, or other effect. Area effects aren't subject to this flat check. If the check fails, the attack, spell, or effect doesn't affect you.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Masqu\u00e9",
+            "description": "<p>Tant que vous \u00eates masqu\u00e9 face \u00e0 une cr\u00e9ature (si vous \u00eates dans un \u00e9pais brouillard, par exemple), cette cr\u00e9ature a du mal \u00e0 vous voir. Vous pouvez toujours \u00eatre @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observ\u00e9}, mais vous \u00eates plus difficile \u00e0 cibler. Une cr\u00e9ature face \u00e0 laquelle vous \u00eates masqu\u00e9 doit r\u00e9ussir un <a class=\"inline-roll roll\" title=\"test nu DD 5\" data-mode=\"roll\" data-flavor=\"test nu DD 5\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> <strong>DD5</strong> pour pouvoir vous prendre pour cible avec une attaque, un sort ou un autre effet. Les zones d\u2019effet ne sont pas sujettes \u00e0 ce test nu. Si le test \u00e9choue, l\u2019attaque, le sort ou l\u2019effet ne vous affecte pas.</p>"
+         }
+      }
+   },
+   {
+      "_id": "HL2l2VRSaQHu9lUw",
+      "name": "Fatigued",
+      "description": "<p>You're tired and can't summon much energy. You take a -1 status penalty to AC and saving throws. While exploring, you can't choose an exploration activity.<br /><br />You recover from fatigue after a full night's rest.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Fatigu\u00e9",
+            "description": "<p>Vous \u00eates fatigu\u00e9 et n\u2019arrivez pas \u00e0 rassembler vos forces. Vous subissez un malus de statut de \u22121 \u00e0 votre CA et \u00e0 vos jets de sauvegarde. Quand vous explorez, vous ne pouvez pas choisir d\u2019activit\u00e9 d\u2019exploration.</p>\n<p>Vous vous remettez de l\u2019\u00e9tat Fatigu\u00e9 au terme d\u2019une nuit compl\u00e8te de repos.</p>"
+         }
+      }
+   },
+   {
+      "_id": "I1ffBVISxLr2gC4u",
+      "name": "Unfriendly",
+      "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is unfriendly to a character dislikes and specifically distrusts that character. The unfriendly creature won't accept @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Requests} from the character.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Inamical",
+            "description": "<p>Cet \u00e9tat refl\u00e8te l'attitude d\u2019une cr\u00e9ature envers un personnage donn\u00e9 et seul un effet surnaturel (comme un sort) peut imposer cet \u00e9tat \u00e0 un personnage joueur. Une cr\u00e9ature inamicale n\u2019appr\u00e9cie pas un personnage en particulier et elle ne lui fait pas confiance. Elle refusera toutes les @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Sollicitations} de ce personnage.</p>"
+         }
+      }
+   },
+   {
+      "_id": "MIRkyAjyBeXivMa7",
+      "name": "Enfeebled",
+      "description": "<p>You're physically weakened. Enfeebled always includes a value. When you are enfeebled, you take a status penalty equal to the condition value to Strength-based rolls and DCs, including Strength-based melee attack rolls, Strength-based damage rolls, and Athletics checks.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Affaibli",
+            "description": "<p>Vous \u00eates physiquement affaibli. L\u2019\u00e9tat affaibli est toujours accompagn\u00e9 d\u2019une intensit\u00e9. Quand vous \u00eates affaibli, vous subissez un malus de statut \u00e9gal \u00e0 l\u2019intensit\u00e9 de votre \u00e9tat qui s\u2019applique \u00e0 vos jets et vos DD bas\u00e9s sur la Force, dont les jets d\u2019attaque bas\u00e9s sur la Force, les jets de d\u00e9g\u00e2ts bas\u00e9s sur la Force et les tests d\u2019Athl\u00e9tisme.</p>"
+         }
+      }
+   },
+   {
+      "_id": "TBSHQspnbcqxsmjL",
+      "name": "Frightened",
+      "description": "<p>You're gripped by fear and struggle to control your nerves. The frightened condition always includes a value. You take a status penalty equal to this value to all your checks and DCs. Unless specified otherwise, at the end of each of your turns, the value of your frightened condition decreases by 1.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Effray\u00e9",
+            "description": "<p>Vous \u00eates paralys\u00e9 par la peur et vous luttez pour ne pas c\u00e9der \u00e0 la panique. L\u2019\u00e9tat effray\u00e9 est toujours accompagn\u00e9 d\u2019une intensit\u00e9. Vous subissez un malus de statut \u00e9gal \u00e0 cette valeur pour tous vos tests et DD. Sauf indication contraire, l\u2019intensit\u00e9 de votre \u00e9tat effray\u00e9 d\u00e9cro\u00eet de 1 \u00e0 la fin de chacun de vos tours.</p>"
+         }
+      }
+   },
+   {
+      "_id": "TkIyaNPgTZFBCCuh",
+      "name": "Dazzled",
+      "description": "<p>Your eyes are overstimulated. If vision is your only precise sense, all creatures and objects are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} from you.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "\u00c9bloui",
+            "description": "<p>Vos yeux ont \u00e9t\u00e9 soumis \u00e0 un exc\u00e8s de stimuli. Si la vue est votre seul sens pr\u00e9cis, toutes les cr\u00e9atures et les objets vous sont @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Masqu\u00e9s}.</p>"
+         }
+      }
+   },
+   {
+      "_id": "VRSef5y1LmL2Hkjf",
+      "name": "Undetected",
+      "description": "<p>When you are undetected by a creature, that creature cannot see you at all, has no idea what space you occupy, and can't target you, though you still can be affected by abilities that target an area. When you're undetected by a creature, that creature is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} to you.<br /><br />A creature you're undetected by can guess which square you're in to try targeting you. It must pick a square and attempt an attack. This works like targeting a hidden creature (requiring a <a class=\"inline-roll roll\" title=\"DC 11 Flat Check\" data-mode=\"roll\" data-flavor=\"DC 11 Flat Check\" data-formula=\"1d20\"> 1d20</a> <strong>DC 11</strong> flat check, but the flat check and attack roll are rolled in secret by the GM, who doesn't reveal whether the attack missed due to failing the flat check, failing the attack roll, or choosing the wrong square.<br /><br />A creature can use the @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action to try to find you.</p>",
+      "translations": {
+         "fr": {
+            "status": "chang\u00e9",
+            "name": "Non d\u00e9tect\u00e9",
+            "description": "<p>Quand vous \u00eates non d\u00e9tect\u00e9 par une cr\u00e9ature, celle-ci ne peut pas vous voir du tout, elle n\u2019a aucune id\u00e9e de l\u2019espace que vous occupez et elle ne peut pas vous prendre pour cible. Vous pouvez cependant toujours \u00eatre affect\u00e9 par les pouvoirs qui ciblent une zone. Quand vous \u00eates non d\u00e9tect\u00e9 par une cr\u00e9ature, celle-ci se trouve @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au d\u00e9pourvu} face \u00e0 vous.</p>\n<p>Une cr\u00e9ature face \u00e0 laquelle vous \u00eates non d\u00e9tect\u00e9 peut tenter de deviner quelle case vous occupez afin de vous prendre pour cible. Elle doit alors d\u00e9signer une case et tenter une attaque. Le fonctionnement est alors le m\u00eame que pour cibler une cr\u00e9ature cach\u00e9e (qui n\u00e9cessite de faire un test nu <a class=\"inline-roll roll\" title=\"test nu DD 11\" data-mode=\"roll\" data-flavor=\"test nu DD 11\" data-formula=\"1d20\"> 1d20</a> <strong>DD 11</strong>), mais le test nu et le jet d\u2019attaque sont faits en secret par le MJ qui ne pr\u00e9cise alors pas si l\u2019attaque \u00e9choue \u00e0 cause d\u2019un \u00e9chec du test nu, du jet d\u2019attaque ou d\u2019un mauvais choix de case.</p>\n<p>Une cr\u00e9ature peut entreprendre l\u2019action @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Chercher} pour tenter de vous trouver.</p>"
+         }
+      }
+   },
+   {
+      "_id": "VcDeM8A5oI6VqhbM",
+      "name": "Restrained",
+      "description": "<p>You're tied up and can barely move, or a creature has you pinned. You have the @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} and @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} conditions, and you can't use any actions with the attack or manipulate traits except to attempt to @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} or @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Force Open} your bonds. Restrained overrides @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Entrav\u00e9",
+            "description": "<p>Vous \u00eates attach\u00e9 et ne pouvez pas bouger ou une cr\u00e9ature vous a saisi et immobilis\u00e9. Vous vous trouvez dans les \u00e9tats @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au d\u00e9pourvu} et @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilis\u00e9}, et vous ne pouvez entreprendre aucune action dot\u00e9e des traits attaque ou manipulation, sauf si vous tentez ainsi de @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Vous \u00e9chapper} ou d\u2019@Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Ouvrir} vos liens de force. L\u2019\u00e9tat entrav\u00e9 est pr\u00e9pond\u00e9rant sur l\u2019\u00e9tat @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoign\u00e9/agripp\u00e9}.</p>"
+         }
+      }
+   },
+   {
+      "_id": "XgEqL1kFApUbl5Z2",
+      "name": "Blinded",
+      "description": "<p>You can't see. All normal terrain is difficult terrain to you. You can't detect anything using vision. You automatically critically fail Perception checks that require you to be able to see, and if vision is your only precise sense, you take a -4 status penalty to Perception checks. You are immune to visual effects. Blinded overrides @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled}.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Aveugl\u00e9",
+            "description": "<p>Vous ne pouvez pas voir. Tous les terrains normaux sont pour vous des terrains difficiles. Vous ne pouvez rien d\u00e9tecter \u00e0 l\u2019aide de votre vue. Vous \u00e9chouez automatiquement aux tests de Perception qui n\u00e9cessitent que vous puissiez voir et, si votre vision est votre seul sens pr\u00e9cis, vous subissez un malus de statut de \u22124 \u00e0 vos tests de Perception. Vous \u00eates immunis\u00e9 contre les effets visuels. L\u2019\u00e9tat Aveugl\u00e9 est pr\u00e9pond\u00e9rant sur l\u2019\u00e9tat @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{\u00c9bloui}.</p>"
+         }
+      }
+   },
+   {
+      "_id": "Yl48xTdMh3aeQYL2",
+      "name": "Wounded",
+      "description": "<p>You have been seriously injured. If you lose the @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} condition and do not already have the wounded condition, you become wounded 1. If you already have the wounded condition when you lose the dying condition, your wounded condition value increases by 1. If you gain the dying condition while wounded, increase your dying condition value by your wounded value.<br /><br />The wounded condition ends if someone successfully restores Hit Points to you with @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Treat Wounds}, or if you are restored to full Hit Points and rest for 10 minutes.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Bless\u00e9",
+            "description": "<p>Vous avez \u00e9t\u00e9 gravement bless\u00e9. Si vous perdez l\u2019\u00e9tat @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Mourant} et que vous n\u2019\u00eates pas encore dans l\u2019\u00e9tat bless\u00e9, vous devenez bless\u00e9 1. Si vous \u00eates d\u00e9j\u00e0 dans l\u2019\u00e9tat bless\u00e9 quand vous perdez l\u2019\u00e9tat Mourant, l\u2019intensit\u00e9 de votre \u00e9tat bless\u00e9 augmente de 1. Si vous gagnez l\u2019\u00e9tat Mourant alors que vous \u00eates bless\u00e9, vous ajoutez alors \u00e0 l\u2019intensit\u00e9 de votre \u00e9tat Mourant celle de votre \u00e9tat bless\u00e9.<br /><br />L\u2019\u00e9tat bless\u00e9 prend fin si quelqu\u2019un r\u00e9ussit \u00e0 vous rendre des points de vie gr\u00e2ce \u00e0 @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Soigner les blessures} ou si vous r\u00e9cup\u00e9rez l\u2019ensemble de vos points de vie et vous vous reposez pendant 10 minutes.</p>"
+         }
+      }
+   },
+   {
+      "_id": "dTwPJuKgBQCMxixg",
+      "name": "Petrified",
+      "description": "<p>You have been turned to stone. You can't act, nor can you sense anything. You become an object with a Bulk double your normal Bulk (typically 12 for a petrified Medium creature or 6 for a petrified Small creature), AC 9, Hardness 8, and the same current Hit Points you had when alive. You don't have a Broken Threshold. When you're turned back into flesh, you have the same number of Hit Points you had as a statue. If the statue is destroyed, you immediately die. While petrified, your mind and body are in stasis, so you don't age or notice the passing of time.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "P\u00e9trifi\u00e9",
+            "description": "<p>Vous avez \u00e9t\u00e9 chang\u00e9 en pierre. Vous ne pouvez pas agir ou sentir quoi que ce soit. Vous devenez un objet dont l\u2019Encombrement est le double de votre Encombrement normal (g\u00e9n\u00e9ralement 12 pour une cr\u00e9ature Moyenne p\u00e9trifi\u00e9e ou 6 pour une Petite cr\u00e9ature p\u00e9trifi\u00e9e) avec CA 9, Solidit\u00e9 8 et la m\u00eame quantit\u00e9 de points de vie que vous aviez de votre vivant. Vous n\u2019avez pas de Seuil de rupture. Quand vous redevenez une cr\u00e9ature de chair et de sang, vous conservez la m\u00eame quantit\u00e9 de points de vie que vous aviez en tant que statue. Si la statue est d\u00e9truite, vous mourrez imm\u00e9diatement. Tant que vous \u00eates p\u00e9trifi\u00e9, votre corps et votre esprit se trouvent en stase et vous ne vieillissez pas ni ne remarquez le temps qui passe.</p>"
+         }
+      }
+   },
+   {
+      "_id": "dfCMdR4wnpbYNTix",
+      "name": "Stunned",
+      "description": "<p>You've become senseless. You can't act while stunned. Stunned usually includes a value, which indicates how many total actions you lose, possibly over multiple turns, from being stunned. Each time you regain actions (such as at the start of your turn), reduce the number you regain by your stunned value, then reduce your stunned value by the number of actions you lost. For example, if you were stunned 4, you would lose all 3 of your actions on your turn, reducing you to stunned 1; on your next turn, you would lose 1 more action, and then be able to use your remaining 2 actions normally. Stunned might also have a duration instead of a value, such as \"stunned for 1 minute.\" In this case, you lose all your actions for the listed duration.<br /><br />Stunned overrides @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed}. If the duration of your stunned condition ends while you are slowed, you count the actions lost to the stunned condition toward those lost to being slowed. So, if you were stunned 1 and slowed 2 at the beginning of your turn, you would lose 1 action from stunned, and then lose only 1 additional action by being slowed, so you would still have 1 action remaining to use that turn.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "\u00c9tourdi",
+            "description": "<p>Vous \u00eates h\u00e9b\u00e9t\u00e9. Vous ne pouvez pas agir tant que vous \u00eates \u00c9tourdi. L\u2019\u00e9tat \u00c9tourdi est toujours accompagn\u00e9 d\u2019une intensit\u00e9 qui indique la quantit\u00e9 d\u2019actions que vous perdez, parfois pendant plusieurs tours, du fait de cet \u00e9tat. \u00c0 chaque fois que vous regagnez des actions (au d\u00e9but de votre tour, par exemple), vous d\u00e9duisez la quantit\u00e9 d\u2019actions regagn\u00e9es de l\u2019intensit\u00e9 de votre \u00e9tat \u00c9tourdi, puis d\u00e9duisez l\u2019intensit\u00e9 de votre \u00e9tat par le nombre d\u2019actions que vous avez perdues. Par exemple, si vous \u00eates \u00c9tourdi 4, vous perdez vos 3 actions au d\u00e9but de votre tour et vous devenez alors \u00c9tourdi 1. Lors de votre prochain tour, vous perdrez une action suppl\u00e9mentaire, puis vous pourrez utiliser vos 2 actions restantes normalement. L\u2019\u00e9tat \u00c9tourdi peut \u00e9galement \u00eatre accompagn\u00e9 d\u2019une dur\u00e9e \u00e0 la place d\u2019une intensit\u00e9, comme \u00ab \u00e9tourdi pendant 1 minute \u00bb. Dans ce cas-l\u00e0, vous perdez toutes vos actions pendant la dur\u00e9e indiqu\u00e9e.<br /><br />L\u2019\u00e9tat \u00c9tourdi est pr\u00e9pond\u00e9rant sur l\u2019\u00e9tat @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Ralenti}. Si la dur\u00e9e de votre \u00e9tat \u00c9tourdi prend fin alors que vous \u00eates Ralenti, les actions perdues du fait de l\u2019\u00e9tat \u00c9tourdi sont prises en compte dans le d\u00e9compte des actions perdues du fait de l\u2019\u00e9tat Ralenti. Ainsi, si vous \u00eates \u00c9tourdi 1 et Ralenti 2 au d\u00e9but de votre tour, vous perdez 1 action \u00e0 cause de l\u2019\u00e9tat \u00e9tourdi puis perdez 1 action suppl\u00e9mentaire car vous \u00eates Ralenti et il vous reste 1 action \u00e0 utiliser pour ce tour.</p>"
+         }
+      }
+   },
+   {
+      "_id": "e1XGnhKNSQIm5IXg",
+      "name": "Stupefied",
+      "description": "<p>Your thoughts and instincts are clouded. Stupefied always includes a value. You take a status penalty equal to this value on Intelligence-, Wisdom-, and Charisma-based checks and DCs, including Will saving throws, spell attack rolls, spell DCs, and skill checks that use these ability scores. Any time you attempt to @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} while stupefied, the spell is disrupted unless you succeed at a flat check with a DC equal to 5 + your stupefied value.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Stup\u00e9fi\u00e9",
+            "description": "<p>Vos pens\u00e9es et votre instinct sont embrouill\u00e9s. L\u2019\u00e9tat Stup\u00e9fi\u00e9 est toujours accompagn\u00e9 d\u2019une intensit\u00e9. Vous subissez un malus de statut \u00e9gal \u00e0 cette intensit\u00e9 qui s\u2019applique \u00e0 vos tests et vos DD bas\u00e9s sur l\u2019Intelligence, la Sagesse et le Charisme, dont vos jets de Volont\u00e9, vos jets d\u2019attaques de sorts, vos DD de sorts et vos tests de comp\u00e9tences bas\u00e9s sur ces caract\u00e9ristiques. \u00c0 chaque fois que vous tentez de @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Lancer un sort} quand vous \u00eates Stup\u00e9fi\u00e9, ce sort est interrompu, sauf si vous r\u00e9ussissez un test nu dont le DD est \u00e9gal \u00e0 5 + l\u2019intensit\u00e9 de votre \u00e9tat Stup\u00e9fi\u00e9.</p>"
+         }
+      }
+   },
+   {
+      "_id": "eIcWbB5o3pP6OIMe",
+      "name": "Immobilized",
+      "description": "<p>You can't use any action with the move trait. If you're immobilized by something holding you in place and an external force would move you out of your space, the force must succeed at a check against either the DC of the effect holding you in place or the relevant defense (usually Fortitude DC) of the monster holding you in place.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Immobilis\u00e9",
+            "description": "<p>Vous ne pouvez entreprendre aucune action dot\u00e9e du trait d\u00e9placement. Si vous \u00eates immobilis\u00e9 par quelque chose qui vous maintient en place et qu\u2019une force ext\u00e9rieure tente de vous faire quitter votre espace, cette force doit r\u00e9ussir un test contre le DD de l\u2019effet ou la d\u00e9fense adapt\u00e9e (g\u00e9n\u00e9ralement le DD de Vigueur) du monstre qui vous maintient en place.</p>"
+         }
+      }
+   },
+   {
+      "_id": "fBnFDH2MTzgFijKf",
+      "name": "Unconscious",
+      "description": "<p>You're sleeping, or you've been knocked out. You can't act. You take a -4 status penalty to AC, Perception, and Reflex saves, and you have the @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} and @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} conditions. When you gain this condition, you fall @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} and drop items you are wielding or holding unless the effect states otherwise or the GM determines you're in a position in which you wouldn't.<br /><br />If you're unconscious because you're @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying}, you can't wake up while you have 0 Hit Points. If you are restored to 1 Hit Point or more via healing, you lose the dying and unconscious conditions and can act normally on your next turn.<br /><br />If you are unconscious and at 0 Hit Points, but not dying, you naturally return to 1 Hit Point and awaken after sufficient time passes. The GM determines how long you remain unconscious, from a minimum of 10 minutes to several hours. If you receive healing during this time, you lose the unconscious condition and can act normally on your next turn.<br /><br />If you're unconscious and have more than 1 Hit Point (typically because you are asleep or unconscious due to an effect), you wake up in one of the following ways. Each causes you to lose the unconscious condition.</p>\n<ul>\n<li>You take damage, provided the damage doesn't reduce you to 0 Hit Points. If the damage reduces you to 0 Hit Points, you remain unconscious and gain the dying condition as normal.</li>\n<li>You receive healing, other than the natural healing you get from resting.</li>\n<li>Someone shakes you awake with an @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} action.</li>\n<li>There's loud noise going on around you-though this isn't automatic. At the start of your turn, you automatically attempt a Perception check against the noise's DC (or the lowest DC if there is more than one noise), waking up if you succeed. If creatures are attempting to stay quiet around you, this Perception check uses their Stealth DCs. Some magical effects make you sleep so deeply that they don't allow you to attempt this Perception check.</li>\n<li>If you are simply asleep, the GM decides you wake up either because you have had a restful night's sleep or something disrupted that rest.</li>\n</ul>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Inconscient",
+            "description": "<p>Vous dormez ou avez \u00e9t\u00e9 assomm\u00e9. Vous ne pouvez pas faire d\u2019action. Vous subissez un malus de \u22124 \u00e0 votre CA, \u00e0 votre Perception et \u00e0 vos jets de R\u00e9flexes et vous vous trouvez dans les \u00e9tats @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Aveugle} et @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au d\u00e9pourvu}. Quand vous gagnez cet \u00e9tat, vous tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{\u00c0 terre} et l\u00e2chez les objets que vous tenez en main, sauf si l\u2019effet pr\u00e9cise le contraire ou que le MJ d\u00e9termine que vous \u00eates dans une situation qui ne s\u2019y pr\u00eate pas. Si vous \u00eates inconscient parce que vous \u00eates @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Mourant}, vous ne pouvez pas vous r\u00e9veiller tant que vous \u00eates r\u00e9duit \u00e0 0 point de vie. Si vous regagnez 1 point de vie ou plus gr\u00e2ce \u00e0 des soins, vous perdez les \u00e9tats Mourant et Inconscient et vous pouvez agir normalement lors de votre prochain tour.<br /><br /> Si vous \u00eates inconscient et avez 0 point de vie mais n\u2019\u00eates pas Mourant, vous regagnez naturellement 1 point de vie et vous \u00e9veillez au bout d\u2019un certain temps. Le MJ d\u00e9termine alors combien de temps vous \u00eates inconscient : un intervalle allant de 10 min \u00e0 plusieurs heures. Si vous recevez des soins pendant cet intervalle de temps, vous perdez l\u2019\u00e9tat inconscient et pouvez agir normalement lors de votre prochain tour.<br /><br />Si vous \u00eates inconscient et avez plus de 1 point de vie (g\u00e9n\u00e9ralement parce qu\u2019un effet vous a endormi ou rendu inconscient), vous pouvez vous r\u00e9veiller pour l\u2019une des raisons suivantes. Chacune vous fait perdre l\u2019\u00e9tat inconscient.</p>\n<ul>\n<li>Vous subissez des d\u00e9g\u00e2ts qui ne vous r\u00e9duisent pas \u00e0 0 point de vie. Si ces d\u00e9g\u00e2ts vous r\u00e9duisent \u00e0 0 point de vie, vous restez inconscient et gagnez \u00e9galement l\u2019\u00e9tat mourant.</li>\n<li>Vous \u00eates soumis \u00e0 un effet de gu\u00e9rison, autre que la gu\u00e9rison naturelle dont vous b\u00e9n\u00e9ficiez en vous reposant. </li>\n<li>Quelqu\u2019un vous r\u00e9veille avec une action d\u2019Interaction.</li>\n<li>Un bruit fort se produit alentour. Vous ne vous r\u00e9veillez cependant pas automatiquement. Au d\u00e9but de votre tour, vous faites automatiquement un test de Perception contre le DD du bruit (ou, s\u2019il s\u2019agit de plusieurs bruits, le DD le moins \u00e9lev\u00e9). Sur un succ\u00e8s, vous vous r\u00e9veillez. Si des cr\u00e9atures se trouvent autour de vous et tentent de rester discr\u00e8tes, ce test de Perception est fait contre leur DD de Discr\u00e9tion. Certains effets magiques vous font sombrer dans un sommeil si profond que vous ne pouvez pas faire ce test de Perception.</li>\n<li>Si vous \u00eates simplement endormi, le MJ peut d\u00e9cider que vous vous r\u00e9veillez parce que vous avez assez dormi ou parce que quelque chose a troubl\u00e9 votre sommeil. </li>\n</ul>"
+         }
+      }
+   },
+   {
+      "_id": "fesd1n5eVhpCSS18",
+      "name": "Sickened",
+      "description": "<p>You feel ill. Sickened always includes a value. You take a status penalty equal to this value on all your checks and DCs. You can't willingly ingest anything-including elixirs and potions-while sickened.<br /><br />You can spend a single action retching in an attempt to recover, which lets you immediately attempt a Fortitude save against the DC of the effect that made you sickened. On a success, you reduce your sickened value by 1 (or by 2 on a critical success).</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Malade",
+            "description": "<p>Vous vous sentez malade. L\u2019\u00e9tat malade est toujours accompagn\u00e9 d\u2019une intensit\u00e9. Vous subissez un malus de statut \u00e9gal \u00e0 cette valeur \u00e0 tous vos tests et DD. Quand vous \u00eates malade, vous ne pouvez pas volontairement ing\u00e9rer quelque chose, y compris des \u00e9lixirs et des potions.</p>\n<p>Vous pouvez d\u00e9penser une action unique pour tenter de vomir afin de vous remettre de cet \u00e9tat. Vous faites alors imm\u00e9diatement un jet de Vigueur contre le DD de l\u2019effet qui vous a rendu malade. Sur un succ\u00e8s, vous r\u00e9duisez l\u2019intensit\u00e9 de l\u2019\u00e9tat malade de 1 (ou de 2 sur un succ\u00e8s critique).</p>"
+         }
+      }
+   },
+   {
+      "_id": "fuG8dgthlDWfWjIA",
+      "name": "Indifferent",
+      "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is indifferent to a character doesn't really care one way or the other about that character. Assume a creature's attitude to a given character is indifferent unless specified otherwise.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Indiff\u00e9rent",
+            "description": "<p>Cet \u00e9tat refl\u00e8te l'attitude d\u2019une cr\u00e9ature envers un personnage donn\u00e9 et n'affecte que les cr\u00e9atures qui  ne sont pas des personnages joueurs. Une cr\u00e9ature indiff\u00e9rente n\u2019a aucun pr\u00e9jug\u00e9 positif ou n\u00e9gatif envers ce personnage. Sauf indication contraire, partez du principe que l\u2019attitude par d\u00e9faut d\u2019une cr\u00e9ature envers un personnage est indiff\u00e9rente.</p>"
+         }
+      }
+   },
+   {
+      "_id": "i3OJZU2nk64Df3xm",
+      "name": "Clumsy",
+      "description": "<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Maladroit",
+            "description": "<p>Vos mouvements deviennent maladroits et incertains. L\u2019\u00e9tat Maladroit est toujours accompagn\u00e9 d\u2019une intensit\u00e9. Vous subissez un malus de statut \u00e9gal \u00e0 l\u2019intensit\u00e9 de l\u2019\u00e9tat et qui s\u2019applique \u00e0 vos tests et vos DD bas\u00e9s sur la Dext\u00e9rit\u00e9, comme votre CA, vos jets de R\u00e9flexes, vos jets d\u2019attaque \u00e0 distance et vos tests de comp\u00e9tences bas\u00e9s sur Acrobaties, Discr\u00e9tion et Vol.</p>"
+         }
+      }
+   },
+   {
+      "_id": "iU0fEDdBp3rXpTMC",
+      "name": "Hidden",
+      "description": "<p>While you're hidden from a creature, that creature knows the space you're in but can't tell precisely where you are. You typically become hidden by using Stealth to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}. When @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seeking} a creature using only imprecise senses, it remains hidden, rather than @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}. A creature you're hidden from is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} to you, and it must succeed at a <a class=\"inline-roll roll\" title=\"DC11 flat check\" data-mode=\"roll\" data-flavor=\"DC11 flat check\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> <strong>DC 11</strong> flat check when targeting you with an attack, spell, or other effect or it fails affect you. Area effects aren't subject to this flat check.<br /><br />A creature might be able to use the seek action to try to observe you.</p>",
+      "translations": {
+         "fr": {
+            "status": "chang\u00e9",
+            "name": "Cach\u00e9",
+            "description": "<p>Quand vous \u00eates cach\u00e9 d\u2019une cr\u00e9ature, celle-ci sait dans quelle case vous vous trouvez, mais elle ne peut pas dire pr\u00e9cis\u00e9ment o\u00f9 vous vous trouvez. Vous devenez g\u00e9n\u00e9ralement Cach\u00e9 apr\u00e8s avoir utilis\u00e9 Discr\u00e9tion pour @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Vous cacher}. Quand vous @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Cherchez} une cr\u00e9ature en utilisant seulement un sens impr\u00e9cis, celle-ci se trouve dans l\u2019\u00e9tat cach\u00e9 plut\u00f4t qu\u2019@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observ\u00e9}.</p>\n<p>Une cr\u00e9ature par rapport \u00e0 laquelle vous \u00eates cach\u00e9 est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au d\u00e9pourvu} face \u00e0 vous. Elle doit r\u00e9ussir un test nu <a class=\"inline-roll roll\" title=\"test nu DD 11\" data-mode=\"roll\" data-flavor=\"test nu DD 11\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> <strong>DD 11</strong> quand elle vous cible avec une attaque, un sort ou un autre effet pour avoir une chance de vous affecter. Les zones d\u2019effet ne sont pas sujettes \u00e0 ce test nu.</p>\n<p>Une cr\u00e9ature peut tenter de faire appel \u00e0 l\u2019action Chercher pour tenter de changer votre \u00e9tat en Observ\u00e9.</p>"
+         }
+      }
+   },
+   {
+      "_id": "j91X7x0XSomq8d60",
+      "name": "Prone",
+      "description": "<p>You're lying on the ground. You are @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} and take a -2 circumstance penalty to attack rolls. The only move actions you can use while you're prone are @Compendium[pf2e.actionspf2e.Tj055UcNm6UEgtCg]{Crawl} and @Compendium[pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{Stand}. Standing up ends the prone condition. You can @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Take Cover} while prone to hunker down and gain cover against ranged attacks, even if you don't have an object to get behind, gaining a +4 circumstance bonus to AC against ranged attacks (but you remain flat-footed).<br /><br />If you would be knocked prone while you're @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climbing} or @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Flying}, you fall. You can't be knocked prone when @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Swimming}.</p>",
+      "translations": {
+         "fr": {
+            "status": "chang\u00e9",
+            "name": "\u00c0 terre",
+            "description": "<p>Vous \u00eates \u00e9tendu au sol. Vous \u00eates @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au d\u00e9pourvu} et subissez un malus de circonstances de \u22122 \u00e0 vos jets d\u2019attaque. Les seules actions de d\u00e9placement que vous pouvez entreprendre quand vous \u00eates \u00e0 terre sont @Compendium[pf2e.actionspf2e.Tj055UcNm6UEgtCg]{Ramper} et @Compendium[pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{Vous relever}. Si vous Vous relevez, vous mettez un terme \u00e0 l\u2019\u00e9tat \u00e0 terre. Quand vous \u00eates \u00e0 terre, vous pouvez vous @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Mettre \u00e0 l\u2019abri} pour vous accroupir et b\u00e9n\u00e9ficier d\u2019un abri contre les attaques \u00e0 distances, m\u00eame si vous ne vous abritez pas derri\u00e8re un objet. Vous gagnez alors un bonus de circonstances de +4 \u00e0 votre CA contre les attaques \u00e0 distance (mais restez dans l\u2019\u00e9tat Pris au d\u00e9pourvu.<br /><br />Si vous tombez \u00e0 terre alors que vous \u00e9tiez en train d\u2019@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Escalader} ou de @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Voler}, vous chutez. Vous ne pouvez pas \u00eatre renvers\u00e9 et tomber \u00e0 terre quand vous @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Nagez}.</p>"
+         }
+      }
+   },
+   {
+      "_id": "kWc1fhmv9LBiTuei",
+      "name": "Grabbed",
+      "description": "<p>You're held in place by another creature, giving you the @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} and @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} conditions. If you attempt a manipulate action while grabbed, you must succeed at a <a class=\"inline-roll roll\" title=\"DC 5 flat check\" data-mode=\"roll\" data-flavor=\"DC 5 flat check\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> <strong>DC 5</strong> flat check or it is lost; roll the check after spending the action, but before any effects are applied.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Agripp\u00e9/empoign\u00e9",
+            "description": "<p>Vous \u00eates maintenu en place par une autre cr\u00e9ature, ce qui vous conf\u00e8re les \u00e9tats @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au d\u00e9pourvu} et @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilis\u00e9}. Si vous entreprenez une action de manipulation pendant que vous \u00eates empoign\u00e9, vous devez r\u00e9ussir un test nu <a class=\"inline-roll roll\" title=\"test nu DD 5\" data-mode=\"roll\" data-flavor=\"test nu DD 5\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> DD 5 ou perdre cette action. Vous faites le test apr\u00e8s avoir d\u00e9pens\u00e9 l\u2019action et avant que ses effets s\u2019appliquent.</p>"
+         }
+      }
+   },
+   {
+      "_id": "lDVqvLKA6eF3Df60",
+      "name": "Persistent Damage",
+      "description": "<p>Persistent damage comes from effects like acid, being on fire, or many other situations. It appears as \"X persistent [type] damage,\" where \"X\" is the amount of damage dealt and \"[type]\" is the damage type. Instead of taking persistent damage immediately, you take it at the end of each of your turns as long as you have the condition, rolling any damage dice anew each time. After you take persistent damage, roll a <a class=\"inline-roll roll\" title=\"DC 15 flat check\" data-mode=\"roll\" data-flavor=\"DC 15 flat check\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> <strong>DC 15</strong> flat check to see if you recover from the persistent damage. If you succeed, the condition ends.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "D\u00e9g\u00e2ts persistants",
+            "description": "<p>Les d\u00e9g\u00e2ts persistants sont caus\u00e9s par des effets comme l\u2019acide, le feu ou de nombreuses autres choses. Ils se pr\u00e9sentent sous la forme \u00ab X d\u00e9g\u00e2ts persistants de [type] \u00bb, o\u00f9 \u00ab X \u00bb repr\u00e9sente la quantit\u00e9 de d\u00e9g\u00e2ts inflig\u00e9s et le \u00ab [type] \u00bb correspond au type de d\u00e9g\u00e2ts. Au lieu de recevoir imm\u00e9diatement les d\u00e9g\u00e2ts persistants, vous les recevez \u00e0 la fin de chacun de vos tours tant que vous vous trouvez dans cet \u00e9tat et vous devez \u00e0 chaque fois relancer les d\u00e9s de d\u00e9g\u00e2ts. Apr\u00e8s avoir subi des d\u00e9g\u00e2ts persistants, faites un test nu <a class=\"inline-roll roll\" title=\"test nu DD 15\" data-mode=\"roll\" data-flavor=\"test nu DD 15\" data-formula=\"1d20\"><i class=\"fas fa-dice-d20\"></i> 1d20</a> DD 15 afin de d\u00e9terminer si ceux-ci prennent fin. Sur un succ\u00e8s, vous mettez un terme \u00e0 l\u2019\u00e9tat.</p>"
+         }
+      }
+   },
+   {
+      "_id": "nlCjDvLMf2EkV2dl",
+      "name": "Quickened",
+      "description": "<p>You gain 1 additional action at the start of your turn each round. Many effects that make you quickened specify the types of actions you can use with this additional action. If you become quickened from multiple sources, you can use the extra action you've been granted for any single action allowed by any of the effects that made you quickened. Because quickened has its effect at the start of your turn, you don't immediately gain actions if you become quickened during your turn.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Acc\u00e9l\u00e9r\u00e9",
+            "description": "<p>Vous gagnez une action suppl\u00e9mentaire au d\u00e9but de votre tour \u00e0 chaque round. De nombreux effets qui vous acc\u00e9l\u00e8rent pr\u00e9cisent le type d\u2019actions que vous pouvez entreprendre avec cette action suppl\u00e9mentaire. Si plusieurs sources vous acc\u00e9l\u00e8rent, vous pouvez utiliser l\u2019action suppl\u00e9mentaire que vous gagnez pour entreprendre n\u2019importe quelle action permise par l\u2019une de ces sources. Dans la mesure o\u00f9 l\u2019\u00e9tat acc\u00e9l\u00e9r\u00e9 produit son effet au d\u00e9but de votre tour, vous ne gagnez pas imm\u00e9diatement des actions si vous gagnez cet \u00e9tat lors de votre tour.</p>"
+         }
+      }
+   },
+   {
+      "_id": "sDPxOjQ9kx2RZE8D",
+      "name": "Fleeing",
+      "description": "<p>You're forced to run away due to fear or some other compulsion. On your turn, you must spend each of your actions trying to escape the source of the fleeing condition as expediently as possible (such as by using move actions to flee, or opening doors barring your escape). The source is usually the effect or caster that gave you the condition, though some effects might define something else as the source. You can't @Compendium[pf2e.actionspf2e.A72nHGUtNXgY5Ey9]{Delay} or @Compendium[pf2e.actionspf2e.dLgAMt3TbkmLkUqE]{Ready} while fleeing.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "En fuite",
+            "description": "<p>La peur ou une autre forme de compulsion vous contraint \u00e0 prendre la fuite. Lors de votre tour, vous devez utiliser toutes vos actions pour tenter de vous \u00e9loigner de la source de votre \u00e9tat de fuite aussi rapidement que possible (en utilisant des actions de d\u00e9placement pour fuir ou ouvrir des portes qui vous barrent le chemin, par exemple). Cette source est g\u00e9n\u00e9ralement l\u2019effet ou l\u2019incantateur qui vous a impos\u00e9 cet \u00e9tat. Cependant, certains effets peuvent d\u00e9signer quelque chose d\u2019autre comme source. Vous ne pouvez pas utiliser les actions @Compendium[pf2e.actionspf2e.A72nHGUtNXgY5Ey9]{Retarder} ou @Compendium[pf2e.actionspf2e.dLgAMt3TbkmLkUqE]{Pr\u00e9parer} en fuyant.</p>"
+         }
+      }
+   },
+   {
+      "_id": "ud7gTLwPeklzYSXG",
+      "name": "Hostile",
+      "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is hostile to a character actively seeks to harm that character. It doesn't necessarily attack, but it won't accept @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Requests} from the character.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Hostile",
+            "description": "<p>Cet \u00e9tat refl\u00e8te l'attitude d\u2019une cr\u00e9ature envers un personnage donn\u00e9 et elle n'affecte que des cr\u00e9atures qui ne sont pas des personnages joueurs. Une cr\u00e9ature hostile souhaite activement faire du mal au personnage qui lui inspire cette attitude. Elle ne l\u2019attaquera pas n\u00e9cessairement mais refusera d\u2019acc\u00e9der aux @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Sollicitations} de ce personnage.</p>"
+         }
+      }
+   },
+   {
+      "_id": "v44P3WUcU1j0115l",
+      "name": "Helpful",
+      "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is helpful to a character wishes to actively aid that character. It will accept reasonable @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Requests} from that character, as long as such requests aren't at the expense of the helpful creature's goals or quality of life. If the character or one of their allies uses a hostile action against the creature, the creature gains a worse attitude condition depending on the severity of the hostile action, as determined by the GM.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Serviable",
+            "description": "<p>Cet \u00e9tat refl\u00e8te l'attitude d\u2019une cr\u00e9ature envers un personnage donn\u00e9 et elle n'affecte que les cr\u00e9atures qui ne sont pas des personnages joueurs. Une cr\u00e9ature serviable souhaite activement aider le personnage qui lui inspire cette attitude. Elle acceptera que ce personnage lui pr\u00e9sente des @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Sollicitations} raisonnables, tant que ces requ\u00eates ne se font pas aux d\u00e9pensdes objectifs ou de la qualit\u00e9 de vie de la cr\u00e9ature serviable. Si le personnage ou l\u2019un de ses alli\u00e9s entreprend une action hostile contre la cr\u00e9ature, l\u2019attitude de cette derni\u00e8re se d\u00e9grade proportionnellement \u00e0 l\u2019hostilit\u00e9 de l\u2019action, dont le degr\u00e9 est d\u00e9termin\u00e9 par le MJ.</p>"
+         }
+      }
+   },
+   {
+      "_id": "v66R7FdOf11l94im",
+      "name": "Friendly",
+      "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is friendly to a character likes that character. The character can attempt to @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Make a Request} of a friendly creature, and the friendly creature is likely to agree to a simple and safe request that doesn't cost it much to fulfill. If the character or one of their allies uses hostile actions against the creature, the creature gains a worse attitude condition depending on the severity of the hostile action, as determined by the GM.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Amical",
+            "description": "<p>Cet \u00e9tat refl\u00e8te l'attitude d\u2019une cr\u00e9ature envers un personnage donn\u00e9 et n'affecte que les cr\u00e9atures qui ne sont pas des personnages joueurs. Une cr\u00e9ature dont l\u2019attitude est amicale envers un personnage l\u2019appr\u00e9cie. Le personnage peut tenter de @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Solliciter} l\u2019aide d\u2019une cr\u00e9ature amicale et celle-ci r\u00e9pondra probablement favorablement \u00e0 une requ\u00eate simple et d\u00e9nu\u00e9e de risque qui ne lui co\u00fbte pas trop. Si le personnage ou l\u2019un de ses alli\u00e9s entreprend une action hostile contre la cr\u00e9ature, l\u2019attitude de cette derni\u00e8re se d\u00e9grade proportionnellement \u00e0 l\u2019hostilit\u00e9 de l\u2019action, dont le degr\u00e9 est d\u00e9termin\u00e9 par le MJ.</p>"
+         }
+      }
+   },
+   {
+      "_id": "xYTAsEpcJE1Ccni3",
+      "name": "Slowed",
+      "description": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>",
+      "translations": {
+         "fr": {
+            "status": "libre",
+            "name": "Ralenti",
+            "description": "<p>Vous disposez de moins d'actions. L\u2019\u00e9tat Ralenti est toujours accompagn\u00e9 d\u2019une intensit\u00e9. Quand vous regagnez des actions au d\u00e9but de votre tour, vous r\u00e9duisez la quantit\u00e9 d\u2019actions que vous gagnez par l\u2019intensit\u00e9 de votre \u00e9tat ralenti. Dans la mesure o\u00f9 l\u2019\u00e9tat ralenti produit son effet au d\u00e9but de votre tour, vous ne perdez pas imm\u00e9diatement des actions si vous gagnez cet \u00e9tat lors de votre tour.</p>"
+         }
+      }
+   },
+   {
+      "_id": "yZRUzMqrMmfLu0V1",
+      "name": "Dying",
+      "description": "<p>You are bleeding out or otherwise at death's door. While you have this condition, you are @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}. Dying always includes a value, and if it ever reaches dying 4, you die. If you're dying, you must attempt a recovery check at the start of your turn each round to determine whether you get better or worse. Your dying condition increases by 1 if you take damage while dying, or by 2 if you take damage from an enemy's critical hit or a critical failure on your save.<br /><br />If you lose the dying condition by succeeding at a recovery check and are still at 0 Hit Points, you remain unconscious, but you can wake up as described in that condition. You lose the dying condition automatically and wake up if you ever have 1 Hit Point or more. Any time you lose the dying condition, you gain the @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} 1 condition, or increase your wounded condition value by 1 if you already have that condition.</p>",
+      "translations": {
+         "fr": {
+            "status": "chang\u00e9",
+            "name": "Mourant",
+            "description": "<p>Vous vous videz de votre sang ou vous trouvez aux portes de la mort pour une autre raison. Tant que vous \u00eates dans cet \u00e9tat, vous \u00eates @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Inconscient}. L\u2019\u00e9tat Mourant est toujours associ\u00e9 \u00e0 une intensit\u00e9 et, si celle-ci atteint mourant 4, vous mourez. Si vous \u00eates Mourant, vous devez faire un test de r\u00e9cup\u00e9ration au d\u00e9but de chacun de vos tours afin de d\u00e9terminer si votre \u00e9tat s\u2019am\u00e9liore ou empire. L\u2019intensit\u00e9 de votre \u00e9tat Mourant augmente de 1 si vous subissez des d\u00e9g\u00e2ts pendant que vous \u00eates Mourant ou de 2 si vous subissez des d\u00e9g\u00e2ts inflig\u00e9s par un coup critique ou que vous obtenez un \u00e9chec critique \u00e0 votre jet de sauvegarde.</p>\n<p>Si vous quittez l\u2019\u00e9tat mourant parce que vous avez r\u00e9ussi un test de r\u00e9cup\u00e9ration mais que vous \u00eates toujours \u00e0 0 point de vie, vous restez dans l\u2019\u00e9tat Inconscient, mais vous pouvez vous r\u00e9veiller comme expliqu\u00e9 dans le descriptif de cet \u00e9tat. Si jamais vous regagnez un point de vie ou plus, vous quittez l\u2019\u00e9tat Mourant automatiquement et vous vous r\u00e9veillez. \u00c0 chaque fois que vous quittez l\u2019\u00e9tat Mourant, vous gagnez l\u2019\u00e9tat  @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Bless\u00e9} 1, ou augmentez l\u2019intensit\u00e9 de votre \u00e9tat Bless\u00e9 de 1 si vous \u00eates d\u00e9j\u00e0 affect\u00e9 par cet \u00e9tat.</p>"
+         }
+      }
+   },
+   {
+      "_id": "yblD8fOR1J8rDwEQ",
+      "name": "Confused",
+      "description": "<p>You don't have your wits about you, and you attack wildly. You are @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}, you don't treat anyone as your ally (though they might still treat you as theirs), and you can't Delay, Ready, or use reactions.<br /><br />You use all your actions to @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} or cast offensive cantrips, though the GM can have you use other actions to facilitate attack, such as draw a weapon, move so that a target is in reach, and so forth. Your targets are determined randomly by the GM. If you have no other viable targets, you target yourself, automatically hitting but not scoring a critical hit. If it's impossible for you to attack or cast spells, you babble incoherently, wasting your actions.<br /><br />Each time you take damage from an attack or spell, you can attempt a <strong>DC 11</strong> flat check to recover from your confusion and end the condition.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Confus",
+            "description": "<p>Vous \u00eates d\u00e9concert\u00e9 et vous attaquez \u00e0 l\u2019aveuglette. Vous \u00eates @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au d\u00e9pourvu} et ne consid\u00e9rez plus personne comme votre alli\u00e9 (ce qui n\u2019emp\u00eache pas n\u00e9cessairement ces cr\u00e9atures de vous consid\u00e9rer comme leur alli\u00e9) et vous ne pouvez pas utiliser les actions Retarder et Pr\u00e9parer ni utiliser de r\u00e9actions.<br /><br />Vous utilisez toutes vos actions pour @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Frapper} ou lancer des tours de magie offensifs. Le MJ peut cependant vous permettre de faire d\u2019autres actions vous permettant d\u2019attaquer plus facilement, comme d\u00e9gainer une arme, vous rapprocher d\u2019une cible pour qu\u2019elle soit \u00e0 port\u00e9e et ainsi de suite. Le MJ d\u00e9termine vos cibles al\u00e9atoirement. Si vous n\u2019avez pas d\u2019autre cible valide, vous vous prenez vous-m\u00eame pour cible. Vous r\u00e9ussissez alors automatiquement vos coups, mais ne portez pas de coup critique. Si vous \u00eates dans l\u2019impossibilit\u00e9 d\u2019attaquer ou de lancer des sorts, vous marmonnez des choses incoh\u00e9rentes et perdez vos actions.<br /><br />\u00c0 chaque fois que vous subissez des d\u00e9g\u00e2ts provenant d\u2019une attaque ou d\u2019un sort, vous pouvez faire un test nu <strong>DD 11</strong> afin de vous remettre de votre confusion et mettre un terme \u00e0 cet \u00e9tat.</p>"
+         }
+      }
+   },
+   {
+      "_id": "zJxUflt9np0q4yML",
+      "name": "Invisible",
+      "description": "<p>While invisible, you can't be seen. You're @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} to everyone. Creatures can @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} to attempt to detect you; if a creature succeeds at its Perception check against your Stealth DC, you become @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to that creature until you @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} to become undetected again. If you become invisible while someone can already see you, you start out hidden to the observer (instead of undetected) until you successfully sneak. You can't become @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} while invisible except via special abilities or magic.</p>",
+      "translations": {
+         "fr": {
+            "status": "officielle",
+            "name": "Invisible",
+            "description": "<p>Vous ne pouvez pas \u00eatre vu tant que vous \u00eates invisible. Vous \u00eates @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Non d\u00e9tect\u00e9} aux yeux de tout le monde. Les cr\u00e9atures peuvent cependant vous @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Chercher} pour tenter de vous d\u00e9tecter. Si une cr\u00e9ature r\u00e9ussit un test de Perception oppos\u00e9 \u00e0 votre DD de Discr\u00e9tion, vous vous trouvez dans l\u2019\u00e9tat @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Cach\u00e9} par rapport \u00e0 cette cr\u00e9ature jusqu\u2019\u00e0 ce que vous @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{soyez Furtif} pour redevenir non d\u00e9tect\u00e9. Si vous devenez invisible alors que quelqu\u2019un peut vous voir, vous commencez par vous trouver dans l\u2019\u00e9tat cach\u00e9 par rapport \u00e0 cet observateur (au lieu de non d\u00e9tect\u00e9) jusqu\u2019\u00e0 ce que vous r\u00e9ussissiez \u00e0 \u00eatre Furtif. Tant que vous \u00eates invisible, vous ne pouvez pas devenir @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observ\u00e9}, sauf si une cr\u00e9ature fait appel \u00e0 des pouvoirs sp\u00e9ciaux ou \u00e0 la magie.</p>"
+         }
+      }
+   }
+]
