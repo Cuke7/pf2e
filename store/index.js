@@ -1,10 +1,10 @@
 import actionspf2e from "~/static/data/actionspf2e.json";
-// import ancestries from "~/static/data/ancestries.json";
-// import ancestryfeatures from "~/static/data/ancestryfeatures.json";
-// import archetypes from "~/static/data/archetypes.json";
-// import backgrounds from "~/static/data/backgrounds.json";
-// import classes from "~/static/data/classes.json";
-// import classesfeature from "~/static/data/classfeatures.json";
+import ancestries from "~/static/data/ancestries.json";
+import ancestryfeatures from "~/static/data/ancestryfeatures.json";
+import archetypes from "~/static/data/archetypes.json";
+import backgrounds from "~/static/data/backgrounds.json";
+import classes from "~/static/data/classes.json";
+import classesfeature from "~/static/data/classfeatures.json";
 import conditionitems from "~/static/data/conditionitems.json";
 import equipments_srd from "~/static/data/equipment-srd.json";
 import feats_srd from "~/static/data/feats-srd.json";
@@ -12,24 +12,34 @@ import spells_srd from "~/static/data/spells-srd.json";
 import spell_effects from "~/static/data/spell-effects.json";
 
 export const state = () => ({
-  spells_srd: spells_srd.filter(
-    (item) => item.translations.fr.status != "aucune"
-  ),
-  feats_srd: feats_srd.filter(
-    (item) => item.translations.fr.status != "aucune"
-  ),
-  equipments_srd: equipments_srd.filter(
-    (item) => item.translations.fr.status != "aucune"
-  ),
-  spell_effects: spell_effects.filter(
-    (item) => item.translations.fr.status != "aucune"
-  ),
-  conditionitems: conditionitems.filter(
-    (item) => item.translations.fr.status != "aucune"
-  ),
-  actionspf2e: actionspf2e.filter(
-    (item) => item.translations.fr.status != "aucune"
-  ),
+  spells_srd: spells_srd
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({ ...obj, entity: "spell", cat: "spells-srd" })),
+  //
+  feats_srd: feats_srd
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({ ...obj, entity: "feat", cat: "feats-srd" })),
+  //
+  equipments_srd: equipments_srd
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({ ...obj, entity: "equipment", cat: "equipment-srd" })),
+  //
+  spell_effects: spell_effects
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({ ...obj, entity: "spell_effects", cat: "spell-effects" })),
+  //
+  conditionitems: conditionitems
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({
+      ...obj,
+      entity: "conditionitems",
+      cat: "conditionitems",
+    })),
+  //
+  actionspf2e: actionspf2e
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({ ...obj, entity: "actionspf2e", cat: "actionspf2e" })),
+  //
 });
 
 export const getters = {
@@ -50,7 +60,7 @@ export const getters = {
     if (cat == "spell-effects") {
       return state.spell_effects.find((item) => item._id === id);
     }
-    if (cat == "feat-srd") {
+    if (cat == "feats-srd") {
       return state.feats_srd.find((item) => item._id === id);
     }
     if (cat == "equipment-srd") {

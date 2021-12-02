@@ -1,8 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <v-btn to="/spells_srd/toto">test</v-btn>
-
+    <v-col cols="12" sm="8" md="6" class="px-6">
       <v-text-field
         color="primary"
         label="Recherche..."
@@ -11,7 +9,7 @@
         class="mt-6"
       ></v-text-field>
 
-      <div class="primary--text text-h5">Filtres :</div>
+      <v-card-title class="primary--text pa-0">Filtres :</v-card-title>
 
       <v-row align="center">
         <v-col cols="auto">
@@ -28,7 +26,7 @@
         </v-col>
       </v-row>
 
-      <v-divider class="my-4"></v-divider>
+      <v-divider class="my-4" v-if="searchResults.length > 0"></v-divider>
 
       <div class="primary--text text-h5 my-4" v-if="searchResults.length > 0">
         Résultats
@@ -70,7 +68,7 @@ export default {
   data: () => ({
     item: undefined,
     dialog: false,
-    searchQuery: "Assist",
+    searchQuery: "",
     searchResults: [],
     categories: [
       { name: "Sorts", key: "spells_srd" },

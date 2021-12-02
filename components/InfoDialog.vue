@@ -10,6 +10,8 @@
       <v-divider></v-divider>
       <v-card-actions>
         <v-btn color="primary" text @click="dialog2 = false"> Fermer </v-btn>
+        <v-spacer></v-spacer>
+        <v-btn :to="link" color="primary"> Page complète </v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
@@ -23,6 +25,9 @@ export default {
       /@Compendium\[pf2e\.[ ]*?([A-z-0-9]*?)\.[ ]*?([A-z0-9]*?)\]\{(.*?)\}/gm,
   }),
   computed: {
+    link() {
+      return "/" + this.item.cat + "/" + this.item._id;
+    },
     dialog2: {
       get() {
         return this.dialog;

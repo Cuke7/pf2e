@@ -42,7 +42,7 @@ export default {
     manifest: {
       name: "PF2e",
       lang: "fr",
-      theme_color: "#6d00006",
+      theme_color: "#6d0000",
       background_color: "#6d0000",
       short_name: "PF2e",
       display: "standalone",
@@ -76,6 +76,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
   ssr: false,
 };
