@@ -1,10 +1,10 @@
 import actionspf2e from "~/static/data/actionspf2e.json";
-import ancestries from "~/static/data/ancestries.json";
-import ancestryfeatures from "~/static/data/ancestryfeatures.json";
-import archetypes from "~/static/data/archetypes.json";
-import backgrounds from "~/static/data/backgrounds.json";
-import classes from "~/static/data/classes.json";
-import classesfeature from "~/static/data/classfeatures.json";
+// import ancestries from "~/static/data/ancestries.json";
+// import ancestryfeatures from "~/static/data/ancestryfeatures.json";
+// import archetypes from "~/static/data/archetypes.json";
+// import backgrounds from "~/static/data/backgrounds.json";
+// import classes from "~/static/data/classes.json";
+// import classesfeature from "~/static/data/classfeatures.json";
 import conditionitems from "~/static/data/conditionitems.json";
 import equipments_srd from "~/static/data/equipment-srd.json";
 import feats_srd from "~/static/data/feats-srd.json";
