@@ -3,8 +3,8 @@ import ancestries from "~/static/data/ancestries.json";
 import ancestryfeatures from "~/static/data/ancestryfeatures.json";
 import archetypes from "~/static/data/archetypes.json";
 import backgrounds from "~/static/data/backgrounds.json";
-import classes from "~/static/data/classes.json";
-import classesfeature from "~/static/data/classfeatures.json";
+import classeList from "~/static/data/classeList.json";
+import classfeatures from "~/static/data/classfeatures.json";
 import conditionitems from "~/static/data/conditionitems.json";
 import equipments_srd from "~/static/data/equipment-srd.json";
 import feats_srd from "~/static/data/feats-srd.json";
@@ -40,6 +40,17 @@ export const state = () => ({
     .filter((item) => item.translations.fr.status != "aucune")
     .map((obj) => ({ ...obj, entity: "actionspf2e", cat: "actionspf2e" })),
   //
+  classeList: classeList
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({ ...obj, entity: "classes", cat: "classes" })),
+  //
+  classfeatures: classfeatures
+    .filter((item) => item.translations.fr.status != "aucune")
+    .map((obj) => ({
+      ...obj,
+      entity: "classfeatures",
+      cat: "classfeatures",
+    })),
 });
 
 export const getters = {
@@ -75,6 +86,12 @@ export const getters = {
     if (cat == "actionspf2e") {
       return state.actionspf2e.find((item) => item._id === id);
     }
+    if (cat == "classfeatures") {
+      return state.classfeatures.find((item) => item._id === id);
+    }
+  },
+  getClasse: (state) => (id) => {
+    return state.classeList.find((item) => item._id === id);
   },
 };
 
