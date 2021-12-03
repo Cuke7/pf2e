@@ -63,16 +63,6 @@ export default {
   background-repeat: repeat;
 }
 
-.v-card {
-  background-image: url("/background.jpg");
-  background-repeat: repeat;
-}
-
-.v-sheet {
-  background-image: url("/background.jpg");
-  background-repeat: repeat;
-}
-
 #navigation_drawer {
   background-image: url("/background.jpg");
   background-repeat: repeat;

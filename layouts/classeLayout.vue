@@ -39,29 +39,17 @@ export default {
 </script>
 
 <style>
-.v-sheet {
-  background-image: url("/background.jpg");
-  background-repeat: repeat;
-}
-</style>
-
-<style>
 .v-main {
   background-image: url("/background.jpg");
   background-repeat: repeat;
 }
 
-.v-card {
-  background-image: url("/background.jpg");
-  background-repeat: repeat;
-}
-
-.v-sheet {
-  background-image: url("/background.jpg");
-  background-repeat: repeat;
-}
-
 #navigation_drawer {
+  background-image: url("/background.jpg");
+  background-repeat: repeat;
+}
+
+.v-app-bar {
   background-image: url("/background.jpg");
   background-repeat: repeat;
 }

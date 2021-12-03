@@ -20,7 +20,7 @@ export default {};
 </script>
 
 <style>
-.v-sheet {
+.v-app-bar {
   background-image: url("/background.jpg");
   background-repeat: repeat;
 }
