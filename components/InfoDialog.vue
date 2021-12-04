@@ -50,3 +50,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.v-card {
+  background-image: url("/background.jpg");
+  background-repeat: repeat;
+}
+</style>

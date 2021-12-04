@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6" class="px-6">
+    <v-col cols="12" sm="8" md="8" class="px-6">
       <v-text-field
         color="primary"
         label="Recherche..."

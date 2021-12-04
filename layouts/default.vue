@@ -22,12 +22,9 @@
           v-for="(item, i) in pages"
           exact
         >
-          <!-- <v-list-tile-action>
-            <v-icon v-html="item.icon"></v-icon>
-          </v-list-tile-action> -->
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title"></v-list-item-title>
-          </v-list-item-content>
+          <v-card color="primary" class="pa-2 my-2 white--text" width="100%">
+            {{ item.title }}
+          </v-card>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>

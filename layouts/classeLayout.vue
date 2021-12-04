@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-app-bar app>
-      <v-btn icon @click="$router.push('/classes')">
+      <v-btn icon @click="$router.back()">
         <v-icon color="primary"> mdi-arrow-left </v-icon>
       </v-btn>
       <v-spacer></v-spacer>
