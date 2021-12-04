@@ -54,6 +54,19 @@ export const state = () => ({
 });
 
 export const getters = {
+  parse: (state) => (text) => {
+    let regex =
+      /@Compendium\[pf2e\.[ ]*?([A-z-0-9]*?)\.[ ]*?([A-z0-9]*?)\]\{(.*?)\}/gm;
+    let description = text;
+    let matchs = description.matchAll(regex);
+    for (const match of matchs) {
+      description = description.replace(
+        match[0],
+        "<a href='/" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
+      );
+    }
+    return description;
+  },
   getSpell: (state) => (id) => {
     return state.spells_srd.find((item) => item._id === id);
   },
