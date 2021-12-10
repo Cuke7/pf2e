@@ -15,7 +15,11 @@
               Niveau {{ donLevel[0].level }}
             </h2>
           </v-card>
-          <v-card v-for="(don, index2) in donLevel" :key="index2" class="card my-2 pa-2">
+          <v-card
+            v-for="(don, index2) in donLevel"
+            :key="index2"
+            class="card my-2 pa-2"
+          >
             <h3>
               {{ don.translations.fr.name }}
             </h3>
@@ -74,7 +78,7 @@ export default {
       let feats = [];
       for (let i = 0; i < 21; i++) {
         let temp = [...dons.filter((item) => item.level == i)];
-        console.log(i);
+
         if (temp.length > 0) {
           feats.push(temp);
         }
