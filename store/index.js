@@ -62,13 +62,10 @@ export const getters = {
     for (const match of matchs) {
       description = description.replace(
         match[0],
-        "<a href='/" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
+        "<a href='/#" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
       );
     }
     return description;
-  },
-  getSpell: (state) => (id) => {
-    return state.spells_srd.find((item) => item._id === id);
   },
   allData: (state) => () => {
     let array = [].concat.apply(

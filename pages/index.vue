@@ -51,9 +51,9 @@
       </div>
 
       <InfoDialog
-        v-if="item"
+        v-if="oppenedItems.length > 0"
         :dialog="dialog"
-        :item="item"
+        :items="oppenedItems"
         @updateDialog="updateDialog"
       ></InfoDialog>
     </v-col>
@@ -66,7 +66,7 @@ const { Searcher } = require("fast-fuzzy");
 
 export default {
   data: () => ({
-    item: undefined,
+    oppenedItems: [],
     dialog: false,
     searchQuery: "",
     searchResults: [],
@@ -88,9 +88,6 @@ export default {
         return this.$store.getters.allData();
       }
     },
-    // feats_srd() {
-    //   return this.$store.state.feats_srd;
-    // },
     searcher() {
       return new Searcher(this.items, {
         keySelector: (obj) => obj.translations.fr.name,
@@ -98,15 +95,14 @@ export default {
     },
   },
   methods: {
-    navigate(item) {
-      this.$router.push("/" + item.category + "/" + item._id);
-    },
     updateDialog(val) {
       this.dialog = val;
+      if (val == false) {
+        this.oppenedItems = [];
+      }
     },
     openDialog(item) {
-      console.log("HEY");
-      this.item = item;
+      this.oppenedItems.push(item);
       this.dialog = true;
     },
     search(val) {
@@ -125,6 +121,12 @@ export default {
       if (this.searchQuery.length > 0) {
         this.search(this.searchQuery);
       }
+    },
+    $route(to, from) {
+      let hash = to.hash.substring(1);
+      let cat = hash.split("/")[0];
+      let id = hash.split("/")[1];
+      this.oppenedItems.push(this.$store.getters.item({ cat: cat, id: id }));
     },
     searchQuery(val) {
       if (val.length > 0) {
