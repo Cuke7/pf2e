@@ -48,8 +48,8 @@ export default {
       display: "standalone",
     },
     icon: {
-      source: "/icon.png",
-      fileName: "icon.png",
+      source: "/pf2.png",
+      fileName: "pf2.png",
     },
   },
 

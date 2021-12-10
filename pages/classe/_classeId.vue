@@ -11,14 +11,16 @@
           class="px-3 mb-12"
         >
           <v-card width="100%" class="pa-2" color="primary">
-            <h2 class="my-0 white--text text-right">Niveau {{ donLevel[0].level }}</h2>
+            <h2 class="my-0 white--text text-right">
+              Niveau {{ donLevel[0].level }}
+            </h2>
           </v-card>
-          <div v-for="(don, index2) in donLevel" :key="index2">
+          <v-card v-for="(don, index2) in donLevel" :key="index2" class="card my-2 pa-2">
             <h3>
               {{ don.translations.fr.name }}
             </h3>
             <div v-html="parseDons(don)"></div>
-          </div>
+          </v-card>
         </v-row>
       </v-card-text>
     </v-col>
@@ -34,7 +36,7 @@ export default {
   },
 
   mounted() {
-    console.log(this.dons.length);
+    //console.log(this.dons.length);
   },
 
   data: () => ({
@@ -112,5 +114,10 @@ h2 {
 h3 {
   margin-top: 20px;
   color: #6d0000;
+}
+
+.card {
+  background-image: url("/background.jpg");
+  background-repeat: repeat;
 }
 </style>
