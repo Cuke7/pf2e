@@ -38,7 +38,7 @@ export default {
   },
   watch: {
     items(newVal) {
-      //this.tab = newVal.length - 1;
+      this.tab = newVal.length - 1;
     },
   },
   computed: {
