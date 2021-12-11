@@ -12,10 +12,14 @@
           <v-card flat>
             <v-card-text>
               <SpellInfos
-                v-if="(item.entity = 'spell')"
+                v-if="item.entity == 'spell'"
                 :item="item"
               ></SpellInfos>
-              <div v-else>Else.</div>
+              <div
+                class="text-body-1"
+                v-else
+                v-html="$store.getters.parse(item.translations.fr.description)"
+              ></div>
             </v-card-text>
           </v-card>
         </v-tab-item>

@@ -126,7 +126,8 @@ export default {
       let hash = to.hash.substring(1);
       let cat = hash.split("/")[0];
       let id = hash.split("/")[1];
-      this.oppenedItems.push(this.$store.getters.item({ cat: cat, id: id }));
+      if (cat != "conditionspf2e")
+        this.oppenedItems.push(this.$store.getters.item({ cat: cat, id: id }));
     },
     searchQuery(val) {
       if (val.length > 0) {
