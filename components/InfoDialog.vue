@@ -15,11 +15,12 @@
                 v-if="item.entity == 'spell'"
                 :item="item"
               ></SpellInfos>
-              <div
-                class="text-body-1"
-                v-else
+              <v-divider class="mx-4 mt-3"></v-divider>
+              <v-card-text
+                style="max-height: 400px; min-height: 200px; height: 100%;"
+                class="text-body-1 container pa-4"
                 v-html="$store.getters.parse(item.translations.fr.description)"
-              ></div>
+              ></v-card-text>
             </v-card-text>
           </v-card>
         </v-tab-item>
@@ -63,5 +64,9 @@ export default {
 .v-card {
   background-image: url("/background.jpg");
   background-repeat: repeat;
+}
+
+.container {
+  overflow: scroll;
 }
 </style>

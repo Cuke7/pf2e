@@ -8,7 +8,7 @@
               <v-img :src="getSrc(classe)"></v-img>
             </v-col>
 
-            <v-col cols="8">
+            <v-col cols="8" class="pl-0">
               <v-card
                 color="primary"
                 @click="navigateTo(classe)"
