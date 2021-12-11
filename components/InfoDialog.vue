@@ -10,9 +10,13 @@
       <v-tabs-items v-model="tab">
         <v-tab-item v-for="(item, index2) in items" :key="index2">
           <v-card flat>
-            <v-card-text
-              v-html="$store.getters.parse(item.translations.fr.description)"
-            ></v-card-text>
+            <v-card-text>
+              <SpellInfos
+                v-if="(item.entity = 'spell')"
+                :item="item"
+              ></SpellInfos>
+              <div v-else>Else.</div>
+            </v-card-text>
           </v-card>
         </v-tab-item>
       </v-tabs-items>
@@ -21,6 +25,7 @@
 </template>
 
 <script>
+import SpellInfos from "./SpellInfos.vue";
 export default {
   props: ["dialog", "items"],
   data: () => ({
@@ -46,6 +51,7 @@ export default {
       },
     },
   },
+  components: { SpellInfos },
 };
 </script>
 

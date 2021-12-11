@@ -46,6 +46,7 @@ export default {
       background_color: "#6d0000",
       short_name: "PF2e",
       display: "standalone",
+      start_url: "/#",
     },
     icon: {
       source: "/pf2.png",
