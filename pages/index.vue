@@ -66,9 +66,6 @@ import InfoDialog from "../components/InfoDialog.vue";
 const { Searcher } = require("fast-fuzzy");
 
 export default {
-  mounted() {
-    this.search("tenter");
-  },
   data: () => ({
     oppenedItems: [],
     dialog: false,
