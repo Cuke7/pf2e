@@ -3,7 +3,16 @@
     <v-card>
       <v-tabs v-model="tab" background-color="primary" dark>
         <v-tab v-for="(item, index) in items" :key="index">
-          {{ item.translations.fr.name }}
+          <v-row align="center">
+            <v-col cols="auto">
+              {{ item.translations.fr.name }}
+            </v-col>
+            <v-col cols="auto">
+              <v-btn icon @click.stop="removeTab(index)">
+                <v-icon> mdi-bookmark-remove </v-icon>
+              </v-btn>
+            </v-col>
+          </v-row>
         </v-tab>
       </v-tabs>
 
@@ -17,7 +26,7 @@
               ></SpellInfos>
               <v-divider class="mx-4 mt-3"></v-divider>
               <v-card-text
-                style="max-height: 400px; min-height: 200px; height: 100%;"
+                style="max-height: 400px; min-height: 200px; height: 100%"
                 class="text-body-1 container pa-4"
                 v-html="$store.getters.parse(item.translations.fr.description)"
               ></v-card-text>
@@ -38,8 +47,11 @@ export default {
     regex:
       /@Compendium\[pf2e\.[ ]*?([A-z-0-9]*?)\.[ ]*?([A-z0-9]*?)\]\{(.*?)\}/gm,
   }),
-  mounted() {
-    this.items;
+  methods: {
+    removeTab(index) {
+      console.log(index);
+      this.$emit("removeTab", index);
+    },
   },
   watch: {
     items(newVal) {

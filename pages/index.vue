@@ -55,6 +55,7 @@
         :dialog="dialog"
         :items="oppenedItems"
         @updateDialog="updateDialog"
+        @removeTab="removeTab"
       ></InfoDialog>
     </v-col>
   </v-row>
@@ -65,6 +66,9 @@ import InfoDialog from "../components/InfoDialog.vue";
 const { Searcher } = require("fast-fuzzy");
 
 export default {
+  mounted() {
+    this.search("tenter");
+  },
   data: () => ({
     oppenedItems: [],
     dialog: false,
@@ -95,6 +99,9 @@ export default {
     },
   },
   methods: {
+    removeTab(index) {
+      this.oppenedItems.splice(index, 1);
+    },
     updateDialog(val) {
       this.dialog = val;
       if (val == false) {
