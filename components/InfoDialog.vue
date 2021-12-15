@@ -4,7 +4,7 @@
       <v-tabs v-model="tab" background-color="primary" dark>
         <v-tab v-for="(item, index) in items" :key="index">
           <v-row align="center">
-            <v-col cols="auto">
+            <v-col cols="auto" class="abbr" v-if="item">
               {{ item.translations.fr.name }}
             </v-col>
             <v-col cols="auto">
@@ -19,11 +19,20 @@
       <v-tabs-items v-model="tab">
         <v-tab-item v-for="(item, index2) in items" :key="index2">
           <v-card flat>
-            <v-card-text>
+            <v-card-text v-if="item">
               <SpellInfos
                 v-if="item.entity == 'spell'"
                 :item="item"
               ></SpellInfos>
+              <EquipmentInfos
+                v-else-if="item.entity == 'equipment'"
+                :item="item"
+              ></EquipmentInfos>
+              <FeatInfos
+                v-else-if="item.entity == 'feat'"
+                :item="item"
+              ></FeatInfos>
+              <OtherInfos v-else :item="item"></OtherInfos>
               <v-divider class="mx-4 mt-3"></v-divider>
               <v-card-text
                 style="max-height: 400px; min-height: 200px; height: 100%"
@@ -40,6 +49,7 @@
 
 <script>
 import SpellInfos from "./SpellInfos.vue";
+import EquipmentInfos from "./EquipmentInfos.vue";
 export default {
   props: ["dialog", "items"],
   data: () => ({
@@ -68,7 +78,7 @@ export default {
       },
     },
   },
-  components: { SpellInfos },
+  components: { SpellInfos, EquipmentInfos },
 };
 </script>
 
@@ -79,6 +89,12 @@ export default {
 }
 
 .container {
-  overflow: scroll;
+  overflow-y: scroll;
+}
+
+.abbr {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 </style>
